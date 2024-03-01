@@ -1,11 +1,91 @@
 body {
     font-family: "Roboto", sans-serif;
-  }
+    background-color: #fff;
+    background-image:
+    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+}
   
-  li {
+li {
     margin-bottom: 3px;
     margin-top: 3px;
-  }
+}
   
-  /* Your code starts here */
+a {
+    color: brown; 
+}
+
+/* Assignment 1 starts here */
+p {
+    color: #2c3e50;
+    font: 20px Verdana;
+    font-style: italic;
+}
+
+p#para1 {
+    color: #2ecc71;
+    initial-letter: 2;
+}
+
+h1.header {
+    color: #e67e22;
+    /* visibility: hidden; */
+    display: none;
+}
+
+h1 {
+    background-color: linen;
+}
+
+.subhead::first-letter {
+    -webkit-initial-letter: 2;
+            initial-letter: 2;
+    color: #27ae60;
+    margin-right: .5em;
+}
+
+section#assignment1 {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* Assignment 2 starts here */
+/* Default state */
+#assignment2 a {
+    color: #b56250;
+    text-decoration: none; /* Remove underline */
+}
+
+/* When user hovers the mouse on it */
+#assignment2 a:hover {
+    background-color: #f66ff8;
+    color: red;
+}
+
+/* When user clicks on it */
+#assignment2 a:active {
+    color: #f8e36f;
+}
+
+/* After user clicks on it */
+#assignment2 a:visited {
+    color: #6fc4f8;
+}
+
+/* Assignment 3 starts here */
+#assignment3 {
+    font-size: 2rem; /* Set the font size for the top level */
+}
   
+#assignment3 ul {
+    font-size: 0.8em; /* Decrease font size for lower levels */
+}
+
+/* Assignment 4 starts here */
+#assignment4 .square-box {
+    border: 2px solid;
+    width: 90vw; 
+    height: 30vw; 
+    margin: 5vh auto;
+}
